@@ -1,0 +1,213 @@
+*{font-family: 'Cabin', sans-serif;}
+.clear{clear:both;}
+.pointer{cursor:pointer;}
+.margin{margin:0;}
+.padding{padding:0;}
+.db{display:block;}
+.dib{display:inline-block;}
+.img{
+	max-width:100%;
+	max-height:100%;
+}
+.wauto{width:auto;}
+.in-number{width:200px;}
+
+.form-control, .mce-tinymce, .btn, .panel{
+    border-radius: 3px;
+}
+
+.mce-branding-powered-by{display:none;}
+
+.post-file{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.post-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    background: 0 0;
+    cursor: inherit;
+    display: block;
+}
+
+.contents{
+    padding: 65px 15px 50px 225px;
+    transition: 0.3s;
+}
+.content-in{padding-left:15px;}
+.top-bar{
+    margin-left:210px;
+    padding-bottom:10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.navbar-brand, .navbar-brand:hover{color:#fff;}
+.navbar-img{
+    float:right;
+}
+.i-user{
+    padding: 5px 7px;
+    margin-top: 9px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor:pointer;
+}
+.dropmenu{
+    position:absolute;
+    top: 57px;
+    right:-217px;
+    padding:0;
+    border-radius:3px;
+    border:1px solid #ddd;
+    background-color:#fff;
+    transition:0.3s;
+    z-index:13;
+}
+.drop-hide{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:transparent;
+    z-index:11;
+}
+.dropmenu-ac{right: 6px;}
+.dropmenu li{list-style:none}
+.dropmenu li a{
+    display: block;
+    width: 200px;
+    padding: 7px 0 7px 20px;
+    text-align: left;
+    color: #555;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.dropmenu li a:hover{color:#e74a3b;}
+.keluar{
+    color:#fff !important;
+    background-color:#e74a3b;
+}
+.keluar:hover{color:#555 !important;}
+.admin-menu{
+    position: fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    width: 210px;
+    background-color:#e74a3b;
+    z-index: 9;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+.admin-menu ul li a, .submenu li a{
+    display: block;
+    font-weight: normal;
+    font-size:0.9em;
+    padding:10px 0;
+    padding-left:5px;
+    text-decoration: none;
+    cursor:pointer;
+    color:#fff;
+}
+.admin-menu-first, .admin-menu-active{margin:1px 0;}
+.admin-menu-first:hover, .admin-menu-active{
+    background-color:#ffffff26;
+}
+.admin-menu-first i, .admin-menu-active i{
+    font-size:1.1em;
+    margin:0 10px;
+}
+.side-in{left:-210px;}
+.submenu{
+    max-height:0;
+    overflow:hidden;
+    transition: max-height 0.3s ease-out;
+    list-style:none;
+    padding:0;
+}
+.submenu div{
+    padding-left:15px;
+    margin:15px;
+    border-radius: 4px;
+    background-color:#fff;
+}
+.submenu li a{color:#555 !important;}
+.submenu li a:hover{color:#e74a3b !important;}
+.btn-burger{
+    float:left;
+    padding:15px;
+    font-size: 1.5em;
+    line-height:0;
+    color:#fff;
+}
+.btn-burger:hover{
+    color:#ffffffcc;
+}
+.brands{
+    float:left;
+    padding:15px 0;
+    font-size: 1em;
+    color:#fff;
+}
+.side-hr{
+    clear:both;
+    height:1px;
+    margin:0 15px;
+    background-color:#ffffff26;
+}
+.contents{
+    padding: 65px 15px 50px 225px;
+    transition: 0.3s;
+}
+.content-in{padding-left:15px;}
+.table-filter{
+    display:inline-block;
+    width:auto;
+    font-weight: normal;
+}
+.dataTables_length{float:left}
+.dataTables_filter, .dataTables_paginate{float:right;}
+.paginate_button{margin:0 2px;}
+.btn-del{
+    float:left;
+    margin-right: 4px;
+}
+
+.shortcut a{color:#000;}
+.shortcut a:hover{color:#337ab7;}
+.shortcut .img-circle{
+    border: 1px solid #ddd;
+    padding: 8.5px 10px;
+    font-size: 2em;
+}
+.shortcut p{font-size: 1.1em}
+.tb-check{width:30px;}
+.tb-act{
+    width:100px;
+    text-align: center;
+}
+.close-modal{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0 !important;
+}
+.title-modal{font-weight:600;}
